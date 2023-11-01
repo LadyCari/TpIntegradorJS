@@ -45,18 +45,18 @@
            <form>
             <h3>Valor de ticket $200</h3>
             <div class="nya">
-                <input type="text" placeholder="Nombre"></input>
+                <input type="text" placeholder="Nombre" id="nombre"></input>
                 <input type="text" placeholder="Apellido"></input>
             </div>
             <input type="email" placeholder="Correo"></input>
             <div class="lyp">
                 <div class="cantidad">
-                    cantidad
+                <p>Cantidad</p>
                 <input type="number" placeholder="cantidad" id="cantidad"></input>
                 </div>
                 <div class="categoria">
-                    categoria 
-                <select id="categoria">
+                <p id="categoria">Categoria</p>
+                <select id="categoriaSelect">
                     <option value="estudiante">Estudiante</option>
                     <option value="trainee">Trainee</option>
                     <option value="junior">Junior</option>
@@ -64,7 +64,7 @@
                 </div>
             </div>
             <div id="total">
-                Total a Pagar: $ <span id="totalPago"></span>
+                Total a Pagar $ <span id="totalPago"></span>
             </div>
             <div class="botones">
                 <button type="Reset" class="boton1">Borrar</button>
